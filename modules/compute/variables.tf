@@ -1,0 +1,17 @@
+variable "tenant_id" { type = string }
+variable "tenant_name" { type = string }
+variable "aws_region" { type = string }
+variable "public_subnet_id" { type = string }
+variable "frontend_security_group_id" { type = string }
+variable "backend_security_group_id" { type = string }
+variable "database_security_group_id" { type = string }
+variable "frontend_key_name" { type = string }
+variable "backend_key_name" { type = string }
+variable "database_key_name" { type = string }
+variable "frontend_username" { type = string }
+variable "backend_username" { type = string }
+variable "database_username" { type = string }
+variable "frontend_instance_type" { type = string }
+variable "backend_instance_type" { type = string }
+variable "database_instance_type" { type = string }
+variable "root_volume_size" { type = number }

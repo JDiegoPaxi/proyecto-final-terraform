@@ -1,0 +1,19 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+
+# Claves SSH y credenciales
+keys/
+*.pem
+*.ppk
+.aws/
+.env
+.env.*
+
+# Variables locales
+*.auto.tfvars
+terraform.tfvars
